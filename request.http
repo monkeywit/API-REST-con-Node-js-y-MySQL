@@ -1,0 +1,25 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "los 7 habitos d elas personas altamente efectivas",
+    "autor": "Stephen Covey",
+    "edicion": 7
+}
+
+###
+DELETE http://localhost:9000/api/2 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "una breve historia del tiempo",
+    "autor": "Stephen Hawking",
+    "edicion": 3
+}
